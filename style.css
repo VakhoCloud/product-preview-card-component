@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * { 
     box-sizing: border-box;
 }
@@ -97,14 +98,11 @@ button:hover {
     .container { 
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
 
     picture {
         font-size: 0;
-    }
-
-    .content-container {
-        place-content: center;
     }
 
 }
